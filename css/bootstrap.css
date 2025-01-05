@@ -11851,3 +11851,7 @@ textarea.form-control-lg {
 .navbar-collapse {
   text-align: center;
 }
+
+h1, .h1 {
+  font-size: 40px;
+}
