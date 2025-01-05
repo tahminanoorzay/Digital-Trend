@@ -1,1 +1,12 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+$primary-color: #057a8d;
+$secondary-color: #f1c111;
+
+.navbar {
+  background-color: $primary-color;
+}
+
+.navbar-collapse {
+  text-align: center;
+}

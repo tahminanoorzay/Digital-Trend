@@ -1,3 +1,9 @@
-.navbar {
-  background-color: aqua;
+.btn-hover:hover {
+  color: #f1c111 !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-btn {
+    width: 25% !important;
+  }
 }

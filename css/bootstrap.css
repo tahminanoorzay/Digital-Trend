@@ -11844,3 +11844,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbar {
+  background-color: #057a8d;
+}
+
+.navbar-collapse {
+  text-align: center;
+}

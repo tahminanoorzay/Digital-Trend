@@ -15,20 +15,54 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       rel="stylesheet"
     />
-
-    <!-- JS links -->
-    <script src="/JS/script.js"></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <!-- Main Content -->
+    <!-- Navbar Section -->
     <nav class="navbar navbar-expand-lg position-relative">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand text-light fs-2 btn-hover" href="index.html">
           <i class="fa fa-line-chart"></i>
           Digital Trend
         </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navarNav"
+          aria-controls="navarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse m-3" id="navarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-light me-5 btn-hover">Studio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-light me-5 btn-hover"
+                >Our Works</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-light me-5 btn-hover">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="btn btn-warning fw-bold text-light me-5 rounded-5 w-100 mx-3 contact-btn"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
+
+    <!-- JS link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
