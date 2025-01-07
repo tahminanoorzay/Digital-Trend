@@ -8,7 +8,7 @@ $dark-color: #171819;
 /* Navbar Section */
 
 .btn-hover:hover {
-  color: $secondary-color !important;
+  color: #f1c111 !important;
 }
 
 .contact-btn {
@@ -22,14 +22,18 @@ $dark-color: #171819;
 /* Main Section */
 
 .main-section {
-  background: linear-gradient(170deg, $primary-color 64%, $white-color 30%);
+  background: linear-gradient(170deg, #057a8d 64%, #ffffff 30%);
 }
 .main-btn {
   color: #0c8195;
 }
 .main-btn:hover {
-  background-color: $dark-color;
-  color: $white-color;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.project-section {
+  background-color: #ebe8e8;
 }
 
 /* Media Query Section */
@@ -37,5 +41,8 @@ $dark-color: #171819;
 @media screen and (max-width: 1000px) {
   .contact-btn {
     width: 25% !important;
+  }
+  .about-img {
+    width: 75% !important;
   }
 }
