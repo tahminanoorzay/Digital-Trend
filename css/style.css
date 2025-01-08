@@ -31,6 +31,15 @@
   background-color: #ebe8e8;
 }
 
+/* Main Section Blog Page*/
+.main-para {
+  color: #000000;
+}
+
+.main-para:hover {
+  color: #f1c111;
+}
+
 /* Media Query Section */
 @media screen and (max-width: 1000px) {
   .contact-btn {
