@@ -32,12 +32,36 @@
 }
 
 /* Main Section Blog Page*/
+.first-main-para {
+  color: #ffffff;
+}
+
 .main-para {
   color: #000000;
 }
 
+.first-main-para:hover,
 .main-para:hover {
   color: #f1c111;
+}
+
+.submit-btn {
+  color: #ffffff;
+  background-color: #f1c111;
+}
+
+.submit-btn:hover {
+  color: #000000;
+  background-color: #f1c111;
+}
+
+/* Main Section Blog Details Page*/
+.blog-details-h5 {
+  color: #0c8195;
+}
+
+.blog-details-img {
+  width: 10%;
 }
 
 /* Media Query Section */
@@ -47,5 +71,8 @@
   }
   .about-img {
     width: 75% !important;
+  }
+  .submit-btn {
+    width: 100%;
   }
 }
