@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/fontawesome.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- font-awesome link -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg position-relative">
+      <div class="container">
+        <a class="navbar-brand text-light fs-2 btn-hover" href="index.html">
+          <i class="fa fa-line-chart"></i>
+          Digital Trend
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navarNav"
+          aria-controls="navarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse m-3" id="navarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                href="index.html#about"
+                class="nav-link text-light me-5 btn-hover"
+                >Studio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="index.html#project"
+                class="nav-link text-light me-5 btn-hover"
+                >Our Works</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/blog.html" class="nav-link text-light me-5 btn-hover"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="/contact.html"
+                class="btn btn-outline-warning fw-bold text-warning me-5 rounded-5 w-100 mx-3 contact-btn"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+
+    <div class="container">
+      <div class="mt-5 mb-5 text-center">
+        <h1 class="w-50 text-center m-auto">
+          Hey there, Let's <span class="text-warning">talk</span> about
+          <span class="text-warning">creative</span>
+          projects
+        </h1>
+        <div class="mt-4 text-secondary fs-5">
+          <p>
+            or email us at
+            <a
+              class="btn-hover link-secondary text-decoration-none"
+              href="mailto:hello@company.com"
+              >hello@company.com</a
+            >
+          </p>
+          <p>
+            Please follow our contact page to
+            <span class="text-warning">setup</span> the contact form.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Send Message Section -->
+
+    <div class="m-auto d-grid justify-content-center">
+      <form action="">
+        <div class="row p-3">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-6">
+                <input
+                  name="text"
+                  type="text"
+                  class="form-control p-3 m-auto w-100"
+                  style="background-color: #f3eded"
+                  id="name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="col-lg-6">
+                <input
+                  name="email"
+                  type="email"
+                  class="form-control p-3 m-auto w-100"
+                  style="background-color: #f3eded"
+                  id="email"
+                  aria-describedby="emailHelp"
+                  placeholder="Please enter your email"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 p-lg-4 w-100">
+            <input
+              type="text"
+              class="form-control p-5"
+              style="background-color: #f3eded"
+              placeholder="Message"
+            />
+          </div>
+        </div>
+        <div class="">
+          <button
+            class="w-50 btn btn-primary mt-3 mb-5 m-auto d-grid justify-content-center rounded-5 p-3"
+          >
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer Section -->
+
+    <footer class="site-footer bg-dark text-secondary py-5">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <div class="col-lg-5 mx-lg-auto col-md-8 col-12 mb-4">
+            <h1 class="text-white" data-aos="fade-up" data-aos-delay="100">
+              We make creative
+              <strong class="text-warning">brands</strong> only.
+            </h1>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 col-12 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <h4 class="my-4">Contact Info</h4>
+            <p class="mb-1">
+              <i class="fa fa-phone me-2 text-warning"></i> +99 080 070 4224
+            </p>
+            <p>
+              <a href="#" class="text-secondary text-decoration-none">
+                <i class="fa fa-envelope me-2 text-warning"></i>
+                hello@company.com
+              </a>
+            </p>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 col-12 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <h4 class="my-4">Our Studio</h4>
+            <p class="mb-1">
+              <i class="fa fa-home me-2 text-warning"></i> Av. Lúcio Costa -
+              Barra da Tijuca, Rio de Janeiro - RJ, Brazil
+            </p>
+          </div>
+
+          <div
+            class="col-lg-4 mx-lg-auto text-center col-md-8 col-12 mt-5"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <p class="mb-0">
+              Copyright &copy; 2020 Your Company<br />
+              <a
+                href="https://templatemo.com"
+                class="text-warning text-decoration-none"
+                >Design: TemplateMo</a
+              >
+            </p>
+          </div>
+
+          <div
+            class="col-lg-4 mx-lg-auto col-md-6 col-12 mt-5"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="text-secondary text-decoration-none"
+                  >Stories</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-secondary text-decoration-none"
+                  >Work with us</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-secondary text-decoration-none"
+                  >Privacy</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="col-lg-3 mx-lg-auto col-md-6 col-12 mt-5"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="text-secondary"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-secondary"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-secondary"
+                  ><i class="fa-brands fa-dribbble"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-secondary"
+                  ><i class="fa-brands fa-behance"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
